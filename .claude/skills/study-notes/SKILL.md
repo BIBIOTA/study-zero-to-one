@@ -137,12 +137,39 @@ slug 用英文、反映主題（如 `mq-core-terminology`、`database-index-deep
 2. **規劃圖表** → 決定哪幾個概念值得畫圖（內心決定，不向使用者詢問）
 3. **寫出完整文章** → 直接輸出，不用先給大綱讓使用者確認
 4. **寫入檔案** → 用 Write 工具建立 `notes/<category>/<filename>.md`
-5. **啟動獨立 review agent** → 用 Agent 工具派發一個全新的子 agent 進行正確性檢核（見下方說明）
-6. **回報結果** → 告知存檔路徑，並附上 review agent 的檢核報告
+5. **更新 README.md 筆記索引** → 在 `README.md` 的 `## 筆記索引` 區塊，將新筆記加入對應 category 的分組（見下方說明）
+6. **啟動獨立 review agent** → 用 Agent 工具派發一個全新的子 agent 進行正確性檢核（見下方說明）
+7. **回報結果** → 告知存檔路徑，並附上 review agent 的檢核報告
 
 若對話內容不清楚某個概念的最終釐清結論，不要憑空補充，改為在那個概念的說明末尾加上 `> 待釐清：[說明哪裡不確定]`，提醒使用者後續補充。
 
-### 步驟 5 詳細說明：啟動獨立 review agent
+### 步驟 5 詳細說明：更新 README.md 筆記索引
+
+讀取 `README.md`，在 `## 筆記索引` 區塊中：
+
+- 若對應 category 的 H3 分組（如 `### Message Queue`）已存在，在該分組末尾追加一行：
+  ```
+  - [<文章標題>](./<相對路徑>)
+  ```
+- 若 category 的 H3 分組不存在，在 `## 筆記索引` 末尾新增該分組再追加。
+
+**Category → H3 標題對應**：
+
+| category | H3 標題 |
+|----------|---------|
+| `mq` | `### Message Queue` |
+| `database` | `### Database` |
+| `algorithm` | `### Algorithm & Data Structures` |
+| `network` | `### Network` |
+| `cache` | `### Cache` |
+| `ai` | `### AI / LLM` |
+| `system-design` | `### System Design` |
+| `security` | `### Security` |
+| `misc` | `### Misc` |
+
+用 Edit 工具（非 Write）修改 README.md，只動 `## 筆記索引` 區塊，不影響其他章節。
+
+### 步驟 6 詳細說明：啟動獨立 review agent
 
 筆記寫入後，用 **Agent 工具**（非 Skill 工具）啟動一個獨立子 agent，讓它在完全乾淨的上下文中審查筆記。
 

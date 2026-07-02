@@ -7,6 +7,7 @@
 ### Message Queue
 
 - [MQ 核心術語：從 Queue 到 DLQ 的完整設計邏輯](./notes/mq/2026-07-01-mq-core-terminology.md)
+- [Kafka、RabbitMQ、Laravel Queue 核心概念與選型差異](./notes/mq/2026-07-02-kafka-rabbitmq-deep-dive.md)
 
 ## 學習流程
 
