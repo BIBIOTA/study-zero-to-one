@@ -11,6 +11,10 @@
 - [Consumer 失敗處理全流程：Retry Strategy、Failed Job 與 DLQ](./notes/mq/2026-07-03-mq-consumer-failure-retry-dlq.md)
 - [冪等性與訊息傳遞語意：Idempotency、At-least-once、Exactly-once](./notes/mq/2026-07-06-idempotency-delivery-semantics.md)
 
+### Python
+
+- [Python 內建容器完全解析：list、tuple、set、dict 的設計邏輯與時間複雜度](./notes/python/2026-07-06-python-builtin-containers.md)
+
 ## 學習流程
 
 ```
