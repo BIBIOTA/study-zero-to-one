@@ -10,10 +10,15 @@
 - [Kafka、RabbitMQ、Laravel Queue 核心概念與選型差異](./notes/mq/2026-07-02-kafka-rabbitmq-deep-dive.md)
 - [Consumer 失敗處理全流程：Retry Strategy、Failed Job 與 DLQ](./notes/mq/2026-07-03-mq-consumer-failure-retry-dlq.md)
 - [冪等性與訊息傳遞語意：Idempotency、At-least-once、Exactly-once](./notes/mq/2026-07-06-idempotency-delivery-semantics.md)
+- [Idempotency Key、processed_messages 與 Outbox Pattern 的 Schema 設計與取捨](./notes/mq/2026-07-07-idempotency-outbox-schema.md)
 
 ### Python
 
 - [Python 內建容器完全解析：list、tuple、set、dict 的設計邏輯與時間複雜度](./notes/python/2026-07-06-python-builtin-containers.md)
+
+### System Design
+
+- [雲端部署基礎：VPC、Subnet、Security Group、Load Balancer、RDS、Redis](./notes/system-design/2026-07-08-cloud-deployment-basics.md)
 
 ## 學習流程
 
