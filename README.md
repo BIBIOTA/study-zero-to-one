@@ -15,6 +15,7 @@
 ### Python
 
 - [Python 內建容器完全解析：list、tuple、set、dict 的設計邏輯與時間複雜度](./notes/python/2026-07-06-python-builtin-containers.md)
+- [Python 非同步完全指南：Event Loop、asyncio 與並發模型](./notes/python/2026-07-11-python-async-asyncio-event-loop.md)
 
 ### System Design
 
