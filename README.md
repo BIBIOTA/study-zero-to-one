@@ -23,6 +23,7 @@
 - [雲端部署基礎：VPC、Subnet、Security Group、Load Balancer、RDS、Redis](./notes/system-design/2026-07-08-cloud-deployment-basics.md)
 - [部署邊界與責任：API / Worker / MQ / DB 怎麼切](./notes/system-design/2026-07-09-deployment-boundaries-api-worker-db-mq.md)
 - [雲端運算選型：EC2、ECS、Lambda 的管理責任邊界](./notes/system-design/2026-07-10-cloud-deployment-ec2-ecs-lambda.md)
+- [雲端監控與擴縮規則：Health Check、Auto Scaling、Queue Length Scaling](./notes/system-design/2026-07-13-health-check-auto-scaling-queue-length-scaling.md)
 
 ## 學習流程
 
