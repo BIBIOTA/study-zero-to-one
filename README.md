@@ -18,6 +18,10 @@
 - [Python 非同步完全指南：Event Loop、asyncio 與並發模型](./notes/python/2026-07-11-python-async-asyncio-event-loop.md)
 - [Python asyncio.Queue 與 asyncio.Semaphore：in-process 並發協調](./notes/python/2026-07-13-python-asyncio-queue-semaphore.md)
 
+### Java
+
+- [Java OOP 核心：Interface、Abstract Class、Generics、Method Overloading](./notes/java/2026-07-15-java-oop-interface-generics-overloading.md)
+
 ### System Design
 
 - [雲端部署基礎：VPC、Subnet、Security Group、Load Balancer、RDS、Redis](./notes/system-design/2026-07-08-cloud-deployment-basics.md)
