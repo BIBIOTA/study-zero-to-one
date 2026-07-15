@@ -21,6 +21,7 @@
 ### Java
 
 - [Java OOP 核心：Interface、Abstract Class、Generics、Method Overloading](./notes/java/2026-07-15-java-oop-interface-generics-overloading.md)
+- [Java Collections 與 Stream API：List、Map、Set 與 Pipeline 思維](./notes/java/2026-07-15-java-collections-stream-api.md)
 
 ### System Design
 
