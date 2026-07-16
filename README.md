@@ -32,6 +32,7 @@
 - [雲端監控與擴縮規則：Health Check、Auto Scaling、Queue Length Scaling](./notes/system-design/2026-07-13-health-check-auto-scaling-queue-length-scaling.md)
 - [前端 API Request 的雲端旅程：從瀏覽器到後端完整路徑](./notes/system-design/2026-07-14-frontend-api-request-cloud-journey.md)
 - [Observability 四柱：Logs、Metrics、Tracing、Alert](./notes/system-design/2026-07-15-observability-logs-metrics-tracing-alert.md)
+- [Observability 故障排查實戰：Structured Log、Request ID、Correlation ID](./notes/system-design/2026-07-16-observability-structured-logs-request-correlation-id.md)
 
 ## 學習流程
 
