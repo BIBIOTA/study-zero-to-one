@@ -23,6 +23,7 @@
 - [Java OOP 核心：Interface、Abstract Class、Generics、Method Overloading](./notes/java/2026-07-15-java-oop-interface-generics-overloading.md)
 - [Java Collections 與 Stream API：List、Map、Set 與 Pipeline 思維](./notes/java/2026-07-15-java-collections-stream-api.md)
 - [Java 建置環境：Maven 的依賴、編譯、打包與語法總檢核](./notes/java/2026-07-16-java-maven-build-env.md)
+- [Spring Boot 心智模型：IoC Container、DI 與啟動流程](./notes/java/2026-07-17-spring-boot-ioc-di-mental-model.md)
 
 ### System Design
 
