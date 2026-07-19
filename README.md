@@ -27,6 +27,14 @@
 - [Spring Boot Web Layer 基礎：Controller、Config 與 Bean Validation](./notes/java/2026-07-18-spring-boot-web-layer-basics.md)
 - [Spring Boot JPA 入門：Entity、Repository 與 MySQL 連線設定](./notes/java/2026-07-19-spring-boot-jpa-entity-repository.md)
 
+### Database
+
+- [Database Index 與 Slow Query：從 B-Tree 到 EXPLAIN](./notes/database/2026-07-19-database-index-slow-query.md)
+
+### Cache
+
+- [Cache 三大失效問題：Penetration、Avalanche、Breakdown](./notes/cache/2026-07-19-cache-three-failure-modes.md)
+
 ### System Design
 
 - [雲端部署基礎：VPC、Subnet、Security Group、Load Balancer、RDS、Redis](./notes/system-design/2026-07-08-cloud-deployment-basics.md)
