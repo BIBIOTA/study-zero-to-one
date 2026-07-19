@@ -25,6 +25,7 @@
 - [Java 建置環境：Maven 的依賴、編譯、打包與語法總檢核](./notes/java/2026-07-16-java-maven-build-env.md)
 - [Spring Boot 心智模型：IoC Container、DI 與啟動流程](./notes/java/2026-07-17-spring-boot-ioc-di-mental-model.md)
 - [Spring Boot Web Layer 基礎：Controller、Config 與 Bean Validation](./notes/java/2026-07-18-spring-boot-web-layer-basics.md)
+- [Spring Boot JPA 入門：Entity、Repository 與 MySQL 連線設定](./notes/java/2026-07-19-spring-boot-jpa-entity-repository.md)
 
 ### System Design
 
