@@ -47,6 +47,7 @@
 - [Observability 故障排查實戰：Structured Log、Request ID、Correlation ID](./notes/system-design/2026-07-16-observability-structured-logs-request-correlation-id.md)
 - [Observability Day 3：監控指標設計——API Latency、Error Rate 到 Queue 三劍客](./notes/system-design/2026-07-17-observability-metrics-design.md)
 - [Observability 故障排查心法：API Latency、Error Rate、Queue Lag 與 SLI/SLO/SLA](./notes/system-design/2026-07-18-observability-incident-investigation.md)
+- [Observability 故障排查 Checklist：Worker 失敗、DB Timeout、MQ Delay](./notes/system-design/2026-07-20-observability-troubleshooting-checklist.md)
 
 ## 學習流程
 
