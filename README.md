@@ -49,6 +49,7 @@
 - [Observability Day 3：監控指標設計——API Latency、Error Rate 到 Queue 三劍客](./notes/system-design/2026-07-17-observability-metrics-design.md)
 - [Observability 故障排查心法：API Latency、Error Rate、Queue Lag 與 SLI/SLO/SLA](./notes/system-design/2026-07-18-observability-incident-investigation.md)
 - [Observability 故障排查 Checklist：Worker 失敗、DB Timeout、MQ Delay](./notes/system-design/2026-07-20-observability-troubleshooting-checklist.md)
+- [通知系統延遲排查與 Distributed Tracing：P50/P95、Queue Depth、Trace、Span](./notes/system-design/2026-07-21-notification-latency-distributed-tracing.md)
 
 ## 學習流程
 
