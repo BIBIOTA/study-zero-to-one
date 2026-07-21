@@ -27,6 +27,7 @@
 - [Spring Boot Web Layer 基礎：Controller、Config 與 Bean Validation](./notes/java/2026-07-18-spring-boot-web-layer-basics.md)
 - [Spring Boot JPA 入門：Entity、Repository 與 MySQL 連線設定](./notes/java/2026-07-19-spring-boot-jpa-entity-repository.md)
 - [Spring Boot 核心概念：@Component 家族、Laravel 對照與啟動流程](./notes/java/2026-07-20-spring-boot-core-concepts.md)
+- [Spring Boot CRUD 三層架構與 DTO 設計](./notes/java/2026-07-21-spring-boot-crud-three-layer-dto.md)
 
 ### Database
 
