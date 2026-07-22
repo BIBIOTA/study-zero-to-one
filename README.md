@@ -33,6 +33,7 @@
 ### Database
 
 - [Database Index 與 Slow Query：從 B-Tree 到 EXPLAIN](./notes/database/2026-07-19-database-index-slow-query.md)
+- [DB 查詢效能核心：Index 失效、EXPLAIN 判讀、N+1 與慢查詢定位流程](./notes/database/2026-07-22-db-query-performance-index-explain-n1-slow-query.md)
 
 ### Cache
 
