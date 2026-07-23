@@ -139,7 +139,8 @@ slug 用英文、反映主題（如 `mq-core-terminology`、`database-index-deep
 4. **寫入檔案** → 用 Write 工具建立 `notes/<category>/<filename>.md`
 5. **更新 README.md 筆記索引** → 在 `README.md` 的 `## 筆記索引` 區塊，將新筆記加入對應 category 的分組（見下方說明）
 6. **啟動獨立 review agent** → 用 Agent 工具派發一個全新的子 agent 進行正確性檢核（見下方說明）
-7. **回報結果** → 告知存檔路徑，並附上 review agent 的檢核報告
+7. **寫入學習里程碑 memory** → 將本次學習的里程碑追加到 memory（見下方說明）
+8. **回報結果** → 告知存檔路徑，並附上 review agent 的檢核報告
 
 若對話內容不清楚某個概念的最終釐清結論，不要憑空補充，改為在那個概念的說明末尾加上 `> 待釐清：[說明哪裡不確定]`，提醒使用者後續補充。
 
@@ -228,6 +229,45 @@ Agent prompt 格式如下（將 `<FILE_PATH>` 替換為實際路徑）：
 ```
 
 子 agent 會讀取該檔案並回傳完整的檢核報告；主對話直接將報告內容轉述給使用者。
+
+### 步驟 7 詳細說明：寫入學習里程碑 memory
+
+**目的**：讓未來的對話能知道「使用者已學過什麼、哪些卡點已釐清、下次可從哪裡延伸」，避免重複問已釐清的概念。
+
+**Memory 檔案路徑**：`/Users/bibiota/.claude/projects/-Users-bibiota-Documents-projects-study-zero-to-one/memory/learning_milestones.md`
+
+先用 Read 工具讀取此檔案（若不存在則跳過讀取直接建立）。在檔案末尾追加以下格式的新條目：
+
+```markdown
+---
+
+## YYYY-MM-DD｜<主題名稱（簡短，如「Kafka Producer & Consumer」）>
+
+**筆記**：`notes/<category>/<filename>.md`
+
+**涵蓋概念**：概念1、概念2、概念3...
+
+**關鍵卡點（已釐清）**：
+- 原以為 [X]，實際上 [Y]
+- 原以為 [A]，實際上 [B]
+
+**可延伸的方向**：從本次各概念小結的「還可以延伸的方向」整理出 1-2 個最值得下次深挖的點
+```
+
+寫入後，確認 `MEMORY.md` 索引中有一行指向此檔案。若尚未存在，用 Edit 工具追加：
+```
+- [學習里程碑](learning_milestones.md) — 按日期記錄每次學習的主題、卡點與延伸方向
+```
+
+Memory 檔案的 frontmatter：
+```markdown
+---
+name: learning-milestones
+description: 按日期記錄每次 study-practice 的主題、已釐清的卡點與建議延伸方向，供下次引導時銜接
+metadata:
+  type: user
+---
+```
 
 ---
 
