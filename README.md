@@ -11,6 +11,7 @@
 - [Consumer 失敗處理全流程：Retry Strategy、Failed Job 與 DLQ](./notes/mq/2026-07-03-mq-consumer-failure-retry-dlq.md)
 - [冪等性與訊息傳遞語意：Idempotency、At-least-once、Exactly-once](./notes/mq/2026-07-06-idempotency-delivery-semantics.md)
 - [Idempotency Key、processed_messages 與 Outbox Pattern 的 Schema 設計與取捨](./notes/mq/2026-07-07-idempotency-outbox-schema.md)
+- [Kafka Producer、Consumer、Partition 與 At-least-once Delivery](./notes/mq/2026-07-23-kafka-producer-consumer-partition.md)
 
 ### Python
 
