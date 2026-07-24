@@ -12,6 +12,7 @@
 - [冪等性與訊息傳遞語意：Idempotency、At-least-once、Exactly-once](./notes/mq/2026-07-06-idempotency-delivery-semantics.md)
 - [Idempotency Key、processed_messages 與 Outbox Pattern 的 Schema 設計與取捨](./notes/mq/2026-07-07-idempotency-outbox-schema.md)
 - [Kafka Producer、Consumer、Partition 與 At-least-once Delivery](./notes/mq/2026-07-23-kafka-producer-consumer-partition.md)
+- [從 Laravel Queue 到 MQ：設計一個非同步通知系統](./notes/mq/2026-07-04-async-notification-system-design.md)
 
 ### Python
 
@@ -40,6 +41,7 @@
 ### Cache
 
 - [Cache 三大失效問題：Penetration、Avalanche、Breakdown](./notes/cache/2026-07-19-cache-three-failure-modes.md)
+- [Redis 快取模式與三大風險：Penetration、Breakdown、Avalanche](./notes/cache/2026-07-24-redis-cache-patterns-and-risks.md)
 
 ### System Design
 
@@ -54,6 +56,7 @@
 - [Observability 故障排查心法：API Latency、Error Rate、Queue Lag 與 SLI/SLO/SLA](./notes/system-design/2026-07-18-observability-incident-investigation.md)
 - [Observability 故障排查 Checklist：Worker 失敗、DB Timeout、MQ Delay](./notes/system-design/2026-07-20-observability-troubleshooting-checklist.md)
 - [通知系統延遲排查與 Distributed Tracing：P50/P95、Queue Depth、Trace、Span](./notes/system-design/2026-07-21-notification-latency-distributed-tracing.md)
+- [服務間溝通與 Resilience：同步呼叫、事件驅動與 Circuit Breaker](./notes/system-design/2026-07-24-service-communication-resilience.md)
 
 ## 學習流程
 
