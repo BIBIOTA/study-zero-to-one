@@ -57,6 +57,7 @@
 - [Observability 故障排查 Checklist：Worker 失敗、DB Timeout、MQ Delay](./notes/system-design/2026-07-20-observability-troubleshooting-checklist.md)
 - [通知系統延遲排查與 Distributed Tracing：P50/P95、Queue Depth、Trace、Span](./notes/system-design/2026-07-21-notification-latency-distributed-tracing.md)
 - [服務間溝通與 Resilience：同步呼叫、事件驅動與 Circuit Breaker](./notes/system-design/2026-07-24-service-communication-resilience.md)
+- [Spring Cloud 生態地圖與 Trace ID 跨服務傳遞](./notes/system-design/2026-07-25-spring-cloud-ecosystem-trace-propagation.md)
 
 ## 學習流程
 
