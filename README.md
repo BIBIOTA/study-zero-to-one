@@ -42,6 +42,7 @@
 
 - [Cache 三大失效問題：Penetration、Avalanche、Breakdown](./notes/cache/2026-07-19-cache-three-failure-modes.md)
 - [Redis 快取模式與三大風險：Penetration、Breakdown、Avalanche](./notes/cache/2026-07-24-redis-cache-patterns-and-risks.md)
+- [Cache Invalidation 與資料不一致：Race Condition 全解析](./notes/cache/2026-07-27-cache-invalidation-consistency.md)
 
 ### System Design
 
